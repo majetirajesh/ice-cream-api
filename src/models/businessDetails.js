@@ -1,11 +1,11 @@
-class BusinessDetails  {
-    constructor(name, city, review, reviewerName){
+/**
+ * Business Object
+ */
+class BusinessDetails {
+    constructor(name, address, reviews) {
         this.name = name;
-        this.city = city;
-        this.review = review;
-        this.reviewerName = reviewerName;
+        this.address = address;
+        this.reviews = reviews;
     }
-    
-  }
-  
-  export default BusinessDetails;
+}
+export default BusinessDetails;
